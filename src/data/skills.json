@@ -1,0 +1,83 @@
+[
+  {
+    "title": "React JS",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "TailwindCSS",
+    "imageSrc": "skills/tailwindcss.svg"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Mongoose",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Node JS",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express JS",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "Axios",
+    "imageSrc": "skills/axios.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Rest API",
+    "imageSrc": "skills/restApi.png"
+  },
+  {
+    "title": "OOP",
+    "imageSrc": "skills/oop.png"
+  },
+  {
+    "title": "DOM",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Cloudinary",
+    "imageSrc": "skills/cloudinary.png"
+  },
+  {
+    "title": "Photoshop",
+    "imageSrc": "skills/photoshop.svg"
+  },
+  {
+    "title": "Premiere Rush",
+    "imageSrc": "skills/rush.svg"
+  },
+  {
+    "title": "Final Cut",
+    "imageSrc": "skills/finalCut.png"
+  },
+  {
+    "title": "Canva",
+    "imageSrc": "skills/canva.svg"
+  }
+
+]

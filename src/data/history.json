@@ -1,0 +1,191 @@
+[
+  {
+    "role": "Full-Stack Web Developer ",
+    "organisation": "Ironhack, remote",
+    "startDate": "January, 2024",
+    "endDate": "March, 2024",
+    "experiences": ["9 weeks immersive Bootcamp", "6 completed projects (3 mini-projects)"],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Office Manager / Assistant to Director",
+    "organisation": "Aspen Institute Germany, Berlin",
+    "startDate": "January, 2022",
+    "endDate": "Dezember, 2023",
+    "experiences": ["Managed and operated the website in WordPress (Content Management)", "Coordinated and planned social media posts",
+    "Scheduled and coordinated meetings", "Planned travel arrangements", "Handling job applications and recruitment processes", "Administered office management tasks"],
+    "imageSrc": "history/microsoft.png"
+  },
+  {
+    "role": "Office Manager / Event Management",
+    "organisation": "GameDuell GmbH, Berlin",
+    "startDate": "November, 2016",
+    "endDate": "Dezember, 2021",
+    "experiences": ["Planned and coordinated events", "Scheduled meetings", "Planned travel arrangements",
+    "Administered office management tasks"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Teamassistant",
+    "organisation": "doppio.tv Media GmbH, Berlin",
+    "startDate": "February, 2016",
+    "endDate": "October, 2016",
+    "experiences": ["HR Administration", "Recruitment and Onboarding", "Administrative support", "Assistance in and organization of the company closure",
+    "Event coordination"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Assistant to Press Team",
+    "organisation": "UFA Fiction GmbH, Potsdam",
+    "startDate": "April, 2015",
+    "endDate": "October, 2015",
+    "experiences": ["Planning of appointments and meetings", "Travel expense reimbursement", "Administrative support",
+    "Management and creation of project lists"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Casting Editor",
+    "organisation": "Brainpool TV GmbH, Cologne",
+    "startDate": "February, 2015",
+    "endDate": "March, 2015",
+    "experiences": ["Popstarts:", "Researching candidates", "Interview of candidates"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Editorial Assistant Postproduction",
+    "organisation": "UFA Show GmbH, Cologne",
+    "startDate": "October, 2014",
+    "endDate": "January, 2015",
+    "experiences": ["Deutschland sucht den Superstar:", "Researching candidates", "Interview of candidates"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Casting Researcher",
+    "organisation": "UFA Show GmbH, Cologne",
+    "startDate": "October, 2014",
+    "endDate": "January, 2015",
+    "experiences": ["Deutschland sucht den Superstar:", "Researching candidates", "Interview of candidates"],
+    "imageSrc": "history/netflix.png"
+  }, 
+  {
+    "role": "Entertainment Editor",
+    "organisation": "Brainpool TV GmbH, Cologne",
+    "startDate": "October, 2013",
+    "endDate": "January, 2014",
+    "experiences": ["Die Millionärswahl:", "Researching candidates", "Interview of candidates", "Management of online phase (Facebook / Homepage) "],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Online Coordinator",
+    "organisation": "UFA Serial Drama digital, Cologne",
+    "startDate": "July, 2013",
+    "endDate": "October, 2013",
+    "experiences": ["Implementation of social media campaign", "Creation and editing of photos (Photoshop)"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Editorial Assistant (intern)",
+    "organisation": "Endemol Deutschland GmbH, Cologne",
+    "startDate": "February, 2013",
+    "endDate": "June, 2013",
+    "experiences": ["Julia Leischik: An deiner Seite:", "Casting of candidates (shooting and editing)", "Researching candidates and stories", "Preparing shootings"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Assistant to Head of Laboratory",
+    "organisation": "Kröna Lacke, Littfeld",
+    "startDate": "October, 2012",
+    "endDate": "January, 2013",
+    "experiences": ["Casting of candidates (shooting and editing)", "Researching candidates and stories", "Preparing shootings"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Assistant Company Communication (intern)",
+    "organisation": "Grundy Light Entertainment GmbH, Cologne",
+    "startDate": "June, 2012",
+    "endDate": "August, 2012",
+    "experiences": ["Creation of press releases", "Content Management of social media platforms", "Realization and maintenance of homepage on CMS basis"],
+    "imageSrc": "history/netflix.png"
+  }, 
+  {
+    "role": "Bachelor of Arts in Media Studies",
+    "organisation": "University of Siegen",
+    "startDate": "October, 2007",
+    "endDate": "September, 2011",
+    "experiences": ["Theses (2,0): Die Konzeption des Serienkillers und seiner Antagonisten am Beispiel der TV Serie Dexter - (The concept of the serial killer and his antagonists using the example of the TV series Dexter"],
+    "imageSrc": "history/netflix.png"
+  }, 
+  {
+    "role": "Student Assistant to Dr. habil. Marcus Stiglegger and Prof. Dr. Rainer Leschke",
+    "organisation": "University of Siegen - Department 3 Media Studies",
+    "startDate": "April, 2010",
+    "endDate": "February, 2011",
+    "experiences": ["Organizational and technical preparations (teaching)", "Literature and film research", "Correction assistance for exams"],
+    "imageSrc": "history/netflix.png"
+  }, 
+  {
+    "role": "Student Assistant Production",
+    "organisation": "WDR Studio Siegen - 'Lokalzeit'",
+    "startDate": "August, 2008",
+    "endDate": "November, 2008",
+    "experiences": ["Editing image memory (Photoshop)", "Operation of font generator (inserts)"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Editorial Assistant (intern)",
+    "organisation": "Endemol Deutschland GmbH, Cologne",
+    "startDate": "January, 2007",
+    "endDate": "June, 2007",
+    "experiences": ["Nur die Liebe zählt:", "Casting of candidates", "Candidate support in studio and during EB shoots", "Shooting preparation for individual stories"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Production Assistant (intern)",
+    "organisation": "Sony Pictures Film- und Fernseh Produktions GmbH, Cologne",
+    "startDate": "September, 2006",
+    "endDate": "Dezember, 2006",
+    "experiences": ["Die Familienanwälting:", "Preparation of travel arrangements", "Correspondence with agencies", "Assistance on set"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Advanced Vocational School",
+    "organisation": "BBS I Northeim",
+    "startDate": "August, 2005",
+    "endDate": "July, 2006",
+    "experiences": ["General higher education entrance qualification"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Technical college",
+    "organisation": "BBS I Northeim",
+    "startDate": "August, 2004",
+    "endDate": "July, 2005",
+    "experiences": ["Advanced technical college certificate"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Commercial Clerk in Customer Service",
+    "organisation": "Sartorius AG, Karlsruhe",
+    "startDate": "June, 2003",
+    "endDate": "July, 2004",
+    "experiences": ["Invoicing of repair and maintenance services", "Preparation of cost estimates and quotations", "Data maintenance in SAP"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Apprenticeship Industrial Clerk",
+    "organisation": "Sartorius AG, Göttingen",
+    "startDate": "August, 2001",
+    "endDate": "June, 2003",
+    "experiences": ["Invoicing of repair and maintenance services", "Preparation of cost estimates and quotations", "Data maintenance in SAP"],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "State-approved Foreign Language Correspondent",
+    "organisation": "IBK, Göttingen",
+    "startDate": "September, 1998",
+    "endDate": "July, 1999",
+    "experiences": ["Invoicing of repair and maintenance services", "Preparation of cost estimates and quotations", "Data maintenance in SAP"],
+    "imageSrc": "history/netflix.png"
+  }
+  
+]

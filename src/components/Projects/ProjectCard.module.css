@@ -1,0 +1,100 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, white 0%, #d4ebeb 100%);
+  box-shadow: 0 16px 14px 0 #006666;
+  max-width: 450px;
+  height: 650px;
+  margin: 20px;
+}
+
+.image {
+  margin-bottom: 10px;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px 24px;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 18px 24px;
+}
+
+.skills {
+  width: calc(100% - 25px); 
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  padding: 18px 18px;
+}
+
+.skill {
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 22px;
+
+}
+
+.links {
+  width: calc(100% - 25px); 
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 18px;
+  margin-bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-secondary);
+  padding: 2px 22px;
+}
+
+
+@media screen and (max-width: 830px) {
+  .container {
+    max-width: 100%; /* Set the maximum width to 100% for responsiveness */
+    height: auto; /* Allow the height to adjust dynamically based on content */
+  }
+
+  .title {
+    font-size: 20px; /* Adjust the font size for smaller screens */
+  }
+
+  .description {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .skills,
+  .links {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .skill,
+  .link {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+    padding: 2px 15px; /* Adjust padding for smaller screens */
+  }
+
+}

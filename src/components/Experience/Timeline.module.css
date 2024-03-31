@@ -1,0 +1,135 @@
+@import "../../vars.css";
+
+.item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0px;
+  position: relative;
+  margin: 10px 0;
+  width: 50%;
+
+}
+
+.item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.content {
+  box-shadow: 0 16px 14px 0 #006666;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+  width: 400px;
+  max-width: 70%;
+  text-align: right;
+  margin-right: 27px;
+  margin-left: 27px;
+}
+
+.content::after {
+  content: " ";
+  background-color: #fff;
+  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: -7.5px;
+  top: calc(50% - 7.5px);
+  transform: rotate(45deg);
+  width: 25px;
+  height: 15px;
+}
+
+.date {
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+.role {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+}
+
+.organisation {
+    font-size: 14px;
+}
+
+.item:nth-child(odd) .content {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.item:nth-child(odd) .content::after {
+  right: auto;
+  left: -7.5px;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* .content p {
+  font-size: 16px;
+  line-height: 24px;
+} */
+
+.content .circle {
+  background-color: #fff;
+  border: 3px solid #006666;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: -40px;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.item:nth-child(odd) .content .circle {
+  right: auto;
+  left: -40px;
+}
+
+.containerList {
+    display: flex;
+    align-items: flex-end;
+}
+
+.item:nth-child(odd) .containerList {
+    justify-content: flex-start; /* Adjust for odd items */
+  }
+  
+.experienceList {
+  margin-top: 10px; /* Adjust margin as needed */
+  padding-left: 0; /* Remove default padding */
+}
+
+
+.experienceList li {
+  list-style-type: disc; /* Specify the type of bullet point */
+  margin-bottom: 5px; /* Adjust margin between list items */
+}
+
+ .list {
+  margin-right: 0 !important; 
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+  .content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .content,
+  .item:nth-child(odd) .content {
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+  }
+}
