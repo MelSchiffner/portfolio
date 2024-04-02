@@ -5,6 +5,7 @@ import './index.css'
 
 import "@fontsource/outfit";
 import "@fontsource/roboto";
+import '@fontsource/ubuntu-mono';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

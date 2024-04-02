@@ -1,11 +1,13 @@
 :root {
     /* Colours */
-    --color-text: black;
+    --color-text: rgb(255, 255, 255);
     --color-primary: #d4ebeb;
     --color-secondary: #15A2A2;
+    --color-third: #3acaca;
     --color-dark: #006666;
+    --color-darker: #005252;
     --color-bg: white;
   
     /* Fonts */
-    --font-roboto: "Roboto";
+    --font-ubuntu-mono: "Ubunto",  monospace; 
   }

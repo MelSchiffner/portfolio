@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: #d4ebeb;
+  background: var(--color-secondary);
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
@@ -27,6 +27,10 @@
 
 .aboutImage {
   width: 35%;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  padding: 15px;
+  
 }
 
 .aboutItems {
@@ -63,7 +67,12 @@
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 15px;
+}
+
+.aboutItem img {
+  width: 8%;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 830px) {

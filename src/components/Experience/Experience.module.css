@@ -15,3 +15,13 @@
     width: 4px;
     height: 100%;
 }
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }

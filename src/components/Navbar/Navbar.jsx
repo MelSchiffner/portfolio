@@ -1,10 +1,15 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState(null);
+
+  const handleLinkClick = (id) => {
+    setActiveLink(id);
+    setMenuOpen(false);
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -24,23 +29,58 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#projects">Projects</a>
+            <a
+              href="#projects"
+              className={activeLink === "projects" ? styles.activeLink : ""}
+              onMouseEnter={() => setActiveLink("projects")}
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#experience">Skills</a>
+            <a
+              href="#skills"
+              className={activeLink === "skills" ? styles.activeLink : ""}
+              onMouseEnter={() => setActiveLink("skills")}
+            >
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#timeline">Timeline</a>
+            <a
+              href="#experience"
+              className={activeLink === "experience" ? styles.activeLink : ""}
+              onMouseEnter={() => setActiveLink("experience")}
+            >
+              Experience
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a
+              href="#about"
+              className={activeLink === "about" ? styles.activeLink : ""}
+              onMouseEnter={() => setActiveLink("about")}
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href="#about">Contact</a>
+            <a
+              href="#contact"
+              className={activeLink === "contact" ? styles.activeLink : ""}
+              onMouseEnter={() => setActiveLink("contact")}
+            >
+              Contact
+            </a>
           </li>
           <li>
-          <a href="../assets/resume/Melanie_Schiffner_Resume.pdf" className={styles.resume} download>Resume</a>
-
+            <a
+              href="../assets/resume/Melanie_Schiffner_Resume.pdf"
+              className={styles.resume}
+              download
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </div>

@@ -1,5 +1,6 @@
 import styles from "./Timeline.module.css";
 import React, { useEffect, useRef } from 'react';
+import { MdOutlineTask } from "react-icons/md";
 
 const Timeline = ({ data }) => {
     const experienceListRef = useRef(null);
@@ -14,7 +15,7 @@ const Timeline = ({ data }) => {
           maxWidth = Math.max(maxWidth, width);
         });
   
-        const bulletMargin = maxWidth + 0; // Adjust the margin as needed
+        const bulletMargin = maxWidth + 0; 
   
         listItems.forEach(item => {
           item.style.marginRight = `${bulletMargin}px`;
@@ -30,7 +31,7 @@ return (
     <div className={styles.date}> {data.startDate} - {data.endDate}</div>
       <p className={styles.role} >{data.role}</p>
       <p className={styles.organisation}>{data.organisation}</p>
-      
+      <MdOutlineTask />
       <div className={styles.containerList}>
       <ul ref={experienceListRef} className={styles.experienceList}>
           {data.experiences.map((experience, idx) => (

@@ -7,10 +7,12 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import Experience from "./components/Experience/Experience";
 
+
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
+
       <Hero />
       <Projects />
       <Skills />

@@ -20,7 +20,7 @@
 .content {
   box-shadow: 0 16px 14px 0 #006666;
   border-radius: 5px;
-  background-color: #fff;
+  background: var(--color-secondary);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -31,17 +31,18 @@
   text-align: right;
   margin-right: 27px;
   margin-left: 27px;
+  color: var(--color-text);
 }
 
 .content::after {
   content: " ";
-  background-color: #fff;
+  background: var(--color-secondary);
   box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
   position: absolute;
   right: -7.5px;
   top: calc(50% - 7.5px);
   transform: rotate(45deg);
-  width: 25px;
+  width: 15px;
   height: 15px;
 }
 
@@ -58,6 +59,7 @@
 
 .organisation {
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .item:nth-child(odd) .content {
@@ -71,14 +73,9 @@
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* .content p {
-  font-size: 16px;
-  line-height: 24px;
-} */
-
 .content .circle {
-  background-color: #fff;
-  border: 3px solid #006666;
+  background: var(--color-dark);
+  border: 3px solid var(--color-secondary);
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);
@@ -103,13 +100,15 @@
   }
   
 .experienceList {
-  margin-top: 10px; /* Adjust margin as needed */
+  margin-top: 3px; /* Adjust margin as needed */
   padding-left: 0; /* Remove default padding */
+  font-size: 12px;
+ 
 }
 
 
 .experienceList li {
-  list-style-type: disc; /* Specify the type of bullet point */
+  list-style-type: none; /* Specify the type of bullet point */
   margin-bottom: 5px; /* Adjust margin between list items */
 }
 

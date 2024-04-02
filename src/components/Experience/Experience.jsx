@@ -5,6 +5,7 @@ import styles from "./Experience.module.css";
 
 const Experience = () => (
   <div className={styles.container}>
+    <h2 className={styles.title}>Experience</h2>
     {history.map((data, idx) => (
       <Timeline key={idx} data={data} />
     ))}

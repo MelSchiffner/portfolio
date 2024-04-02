@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Skills.module.css";
 import skills from "../../data/skills.json";
 import { getImageUrl } from "../../utils";
-import Experience from "../Experience/Experience";
 
 const Skills = () => {
   return (
@@ -23,8 +22,7 @@ const Skills = () => {
           })}
         </div>
         </div>
-        <h2 className={styles.title}>Timeline</h2>
-       <Experience />
+        
       </div>
     </section>
   );

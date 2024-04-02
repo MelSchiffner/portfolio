@@ -7,9 +7,14 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <p className={styles.description}>
-          I'm a full-stack developer. Reach out if you'd like to learn more!
-        </p>
+        <div className={styles.intro}>
+         Hi, I'm <b>Mel</b>
+         </div>
+         <div className={styles.description}>
+          A detail-oriented full-stack developer with a B.A. in Media Studies and 10 years of Office experience.
+           <div>I'm all about building sleek, user-friendly websites. </div>
+            <div>Let's create something amazing together!</div>
+          </div>
         <a href="mailto:melanie.schiffner@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>

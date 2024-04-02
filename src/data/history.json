@@ -45,34 +45,34 @@
   },
   {
     "role": "Casting Editor",
-    "organisation": "Brainpool TV GmbH, Cologne",
+    "organisation": "Brainpool TV GmbH, Cologne - Popstars",
     "startDate": "February, 2015",
     "endDate": "March, 2015",
-    "experiences": ["Popstarts:", "Researching candidates", "Interview of candidates"],
+    "experiences": ["Researching candidates", "Interview of candidates"],
     "imageSrc": "history/netflix.png"
   },
   {
     "role": "Editorial Assistant Postproduction",
-    "organisation": "UFA Show GmbH, Cologne",
+    "organisation": "UFA Show GmbH, Cologne - Deutschland sucht den Superstar",
     "startDate": "October, 2014",
     "endDate": "January, 2015",
-    "experiences": ["Deutschland sucht den Superstar:", "Researching candidates", "Interview of candidates"],
+    "experiences": ["Researching candidates", "Interview of candidates"],
     "imageSrc": "history/netflix.png"
   },
   {
     "role": "Casting Researcher",
-    "organisation": "UFA Show GmbH, Cologne",
+    "organisation": "UFA Show GmbH, Cologne - Deutschland sucht den Superstar",
     "startDate": "October, 2014",
     "endDate": "January, 2015",
-    "experiences": ["Deutschland sucht den Superstar:", "Researching candidates", "Interview of candidates"],
+    "experiences": ["Researching candidates", "Interview of candidates"],
     "imageSrc": "history/netflix.png"
   }, 
   {
     "role": "Entertainment Editor",
-    "organisation": "Brainpool TV GmbH, Cologne",
+    "organisation": "Brainpool TV GmbH, Cologne - Die Millionärswahl",
     "startDate": "October, 2013",
     "endDate": "January, 2014",
-    "experiences": ["Die Millionärswahl:", "Researching candidates", "Interview of candidates", "Management of online phase (Facebook / Homepage) "],
+    "experiences": ["Researching candidates", "Interview of candidates", "Management of online phase (Facebook / Homepage) "],
     "imageSrc": "history/netflix.png"
   },
   {
@@ -85,10 +85,10 @@
   },
   {
     "role": "Editorial Assistant (intern)",
-    "organisation": "Endemol Deutschland GmbH, Cologne",
+    "organisation": "Endemol Deutschland GmbH, Cologne - Julia Leischik: An deiner Seite",
     "startDate": "February, 2013",
     "endDate": "June, 2013",
-    "experiences": ["Julia Leischik: An deiner Seite:", "Casting of candidates (shooting and editing)", "Researching candidates and stories", "Preparing shootings"],
+    "experiences": ["Casting of candidates (shooting and editing)", "Researching candidates and stories", "Preparing shootings"],
     "imageSrc": "history/netflix.png"
   },
   {
@@ -133,18 +133,18 @@
   },
   {
     "role": "Editorial Assistant (intern)",
-    "organisation": "Endemol Deutschland GmbH, Cologne",
+    "organisation": "Endemol Deutschland GmbH, Cologne - Nur die Liebe zählt",
     "startDate": "January, 2007",
     "endDate": "June, 2007",
-    "experiences": ["Nur die Liebe zählt:", "Casting of candidates", "Candidate support in studio and during EB shoots", "Shooting preparation for individual stories"],
+    "experiences": ["Casting of candidates", "Candidate support in studio and during EB shoots", "Shooting preparation for individual stories"],
     "imageSrc": "history/netflix.png"
   },
   {
     "role": "Production Assistant (intern)",
-    "organisation": "Sony Pictures Film- und Fernseh Produktions GmbH, Cologne",
+    "organisation": "Sony Pictures Film- und Fernseh Produktions GmbH, Cologne - Die Familienanwältin",
     "startDate": "September, 2006",
     "endDate": "Dezember, 2006",
-    "experiences": ["Die Familienanwälting:", "Preparation of travel arrangements", "Correspondence with agencies", "Assistance on set"],
+    "experiences": ["Preparation of travel arrangements", "Correspondence with agencies", "Assistance on set"],
     "imageSrc": "history/netflix.png"
   },
   {

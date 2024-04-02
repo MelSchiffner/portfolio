@@ -9,38 +9,35 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/Mel-profile-van.jpg")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/webDev.png")} alt="webDev icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Full-Stack Web Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              Recent graduate from a rigorous web development bootcamp, I'm armed with a newfound passion for crafting digital experiences. Proficient in JavaScript, HTML5, CSS3, and the MERN stack (MongoDB, ExpressJS, ReactJS, and NodeJS), I'm eager to apply my skills and creativity to real-world projects and make a splash in the tech industry.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/background.png")} alt="background icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Background</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              In my former roles, I orchestrated office operations with precision, seamlessly coordinating schedules, travel arrangements, and recruitment processes. I also brought events to life while ensuring smooth administrative functioning.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/passion.png")} alt="passion icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Passion</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              Fueling my passion with every turn of the wrench, I'm all about fixing up my vintage Volkswagen from 1977 and hitting the road for some epic camping adventures.
               </p>
             </div>
           </li>
