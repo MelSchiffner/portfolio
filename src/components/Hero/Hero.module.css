@@ -22,8 +22,8 @@
 .intro {
   font-size: 30px;
   margin-bottom: 52px;
-  margin-bottom: 15px;
   color: white;
+  padding-top: 70px;
 }
 
 .description {
@@ -33,7 +33,8 @@
   color: white;
 }
 
-.contactBtn {
+.contactBtn, 
+.resume {
   text-decoration: none;
   color: var(--color-text);
   border-radius: 100px;
@@ -52,8 +53,13 @@
   transition: all .4s ease-out;
 }
 
-.contactBtn:hover {
+.contactBtn:hover,
+.resume:hover {
   background-position: left bottom;
+}
+
+.resume {
+  margin-left: 10px;
 }
 
 .heroImg {

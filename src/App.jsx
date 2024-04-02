@@ -5,7 +5,7 @@ import Skills from "./components/Skills/Skills";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-import Experience from "./components/Experience/Experience";
+import Timeline from "./components/Experience/Timeline";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <Projects />
       <Skills />
-      <Experience />
+      <Timeline />
       <About />
       <Contact />
     </div>

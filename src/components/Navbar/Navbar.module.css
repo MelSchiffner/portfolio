@@ -10,15 +10,27 @@
   background-color: var(--color-dark);
   width: 100%;
   position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .activeLink {
-  background-color: var(--color-third);
+
   border-radius: 100px;
   font-size: 30px;
   font-weight: 600;
   padding: 5px 15px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    to right,
+    var(--color-secondary) 50%,
+    var(--color-third) 50% 
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  transition: all .4s ease-out;
 }
 .menuBtn {
   display: none;
@@ -41,29 +53,6 @@
   margin-right: 30px;
 }
 
-.resume {
-  text-decoration: none;
-  background-color: var(--color-third);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 5px 15px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  background: linear-gradient(
-    to right,
-    var(--color-secondary) 50%,
-    var(--color-third) 50% 
-  );
-  background-size: 200% 100%;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  transition: all .4s ease-out;
-}
-
-.resume:hover {
-  background-position: left bottom;
-}
 
 @media screen and (max-width: 830px) {
   .navbar {

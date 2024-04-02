@@ -1,10 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      const scrollPosition = window.scrollY + 200;
+
+      sections.forEach((section) => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+  
+        if (scrollPosition >= top && scrollPosition < top + height) {
+          setActiveLink(section.id);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleLinkClick = (id) => {
     setActiveLink(id);
@@ -28,11 +50,20 @@ export const Navbar = () => {
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
+            <li>
+            <a
+              href="#home"
+              className={activeLink === "home" ? styles.activeLink : ""}
+              onClick={() => handleLinkClick("home")}
+            >
+              Home
+            </a>
+          </li>
           <li>
             <a
               href="#projects"
               className={activeLink === "projects" ? styles.activeLink : ""}
-              onMouseEnter={() => setActiveLink("projects")}
+              onClick={() => handleLinkClick("projects")}
             >
               Projects
             </a>
@@ -41,7 +72,7 @@ export const Navbar = () => {
             <a
               href="#skills"
               className={activeLink === "skills" ? styles.activeLink : ""}
-              onMouseEnter={() => setActiveLink("skills")}
+              onClick={() => handleLinkClick("skills")}
             >
               Skills
             </a>
@@ -50,7 +81,7 @@ export const Navbar = () => {
             <a
               href="#experience"
               className={activeLink === "experience" ? styles.activeLink : ""}
-              onMouseEnter={() => setActiveLink("experience")}
+              onClick={() => handleLinkClick("experience")}
             >
               Experience
             </a>
@@ -59,7 +90,7 @@ export const Navbar = () => {
             <a
               href="#about"
               className={activeLink === "about" ? styles.activeLink : ""}
-              onMouseEnter={() => setActiveLink("about")}
+              onClick={() => handleLinkClick("about")}
             >
               About
             </a>
@@ -68,18 +99,9 @@ export const Navbar = () => {
             <a
               href="#contact"
               className={activeLink === "contact" ? styles.activeLink : ""}
-              onMouseEnter={() => setActiveLink("contact")}
+              onClick={() => handleLinkClick("contact")}
             >
               Contact
-            </a>
-          </li>
-          <li>
-            <a
-              href="../assets/resume/Melanie_Schiffner_Resume.pdf"
-              className={styles.resume}
-              download
-            >
-              Resume
             </a>
           </li>
         </ul>

@@ -4,11 +4,9 @@
   position: relative;
   background: var(--color-secondary);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  padding-left: 30px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 120px 10% 0;
 }
 
 .title {
@@ -17,6 +15,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  padding-top: 70px;
 }
 
 .content {
@@ -37,7 +36,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+
 }
 
 .aboutItem {
@@ -46,7 +45,7 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 5px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -55,6 +54,7 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
+  margin-bottom: 80px;
 }
 
 .aboutItem:hover {
@@ -68,6 +68,7 @@
 
 .aboutItem p {
   font-size: 15px;
+  padding: 5px 20px;
 }
 
 .aboutItem img {
