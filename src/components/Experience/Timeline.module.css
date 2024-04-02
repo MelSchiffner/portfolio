@@ -124,20 +124,19 @@
 }
 
 .item:nth-child(odd) .containerList {
-    justify-content: flex-start; /* Adjust for odd items */
+    justify-content: flex-start; 
   }
   
 .experienceList {
-  margin-top: 3px; /* Adjust margin as needed */
-  padding-left: 0; /* Remove default padding */
+  margin-top: 3px; 
+  padding-left: 0; 
   font-size: 12px;
  
 }
 
-
 .experienceList li {
-  list-style-type: none; /* Specify the type of bullet point */
-  margin-bottom: 5px; /* Adjust margin between list items */
+  list-style-type: none; 
+  margin-bottom: 5px; 
 }
 
  .list {
