@@ -34,7 +34,6 @@
 
 .buttons {
   display: flex;
-  height: 45px;
   flex-direction: row;
 }
 
@@ -58,6 +57,7 @@
   transition: all .4s ease-out;
   align-items: center;
   vertical-align: middle;
+  width: 125px;
 }
 
 .contactBtn:hover,
@@ -68,7 +68,7 @@
 .resume {
   margin-left: 35px;
   align-items: center;
-  padding-right: 0px;
+  
 }
 
 .icon {
