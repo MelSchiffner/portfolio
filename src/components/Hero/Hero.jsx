@@ -26,7 +26,7 @@ export const Hero = () => {
           </a>
 
           <a
-            href="../assets/resume/Mel-Resume.pdf"
+            href="../assets/resume/Mel-Resume-Hkg7xUcW.pdf"
             className={styles.resume}
             download
           >
