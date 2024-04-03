@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 80px;
 }
 
 .content {
@@ -20,8 +20,9 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   margin-left: 10%;
-  
+  padding-top: 70px;
 }
+
 
 .skills {
   width: 65%;
@@ -29,6 +30,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 45px;
+  margin-top: 37px;
 }
 
 .skill {

@@ -35,6 +35,13 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
+       <a href="#home" className={styles.logoAnchor}>
+        <img
+          src={getImageUrl("nav/Logo-white.png")} 
+          alt="logo"
+          className={styles.logo}
+        />
+      </a>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -50,15 +57,6 @@ export const Navbar = () => {
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
-            <li>
-            <a
-              href="#home"
-              className={activeLink === "home" ? styles.activeLink : ""}
-              onClick={() => handleLinkClick("home")}
-            >
-              Home
-            </a>
-          </li>
           <li>
             <a
               href="#projects"
