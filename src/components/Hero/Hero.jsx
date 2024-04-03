@@ -24,7 +24,7 @@ export const Hero = () => {
           Contact Me
         </a>
         <a
-          href="../public/Melanie_Schiffner_Resume.pdf"
+          href="../public/resume/Melanie_Schiffner_Resume.pdf"
           className={styles.resume}
           download
         >
