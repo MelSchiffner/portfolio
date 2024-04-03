@@ -60,8 +60,16 @@
     "imageSrc": "skills/figma.png"
   },
   {
+    "title": "Canva",
+    "imageSrc": "skills/canva.svg"
+  },
+  {
     "title": "Cloudinary",
     "imageSrc": "skills/cloudinary.png"
+  },
+  {
+    "title": "Final Cut",
+    "imageSrc": "skills/finalCut.png"
   },
   {
     "title": "Photoshop",
@@ -70,14 +78,6 @@
   {
     "title": "Premiere Rush",
     "imageSrc": "skills/rush.svg"
-  },
-  {
-    "title": "Final Cut",
-    "imageSrc": "skills/finalCut.png"
-  },
-  {
-    "title": "Canva",
-    "imageSrc": "skills/canva.svg"
   }
-
+  
 ]
