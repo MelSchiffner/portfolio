@@ -12,7 +12,7 @@ export const Hero = () => {
         </div>
         <div className={styles.description}>
           A detail-oriented full-stack developer with a B.A. in Media Studies
-          and 10 years of Office experience.
+          and 10 years of Office Management experience.
           <div>I'm all about building sleek, user-friendly websites. </div>
           <div>Let's create something amazing together!</div>
         </div>
@@ -24,7 +24,7 @@ export const Hero = () => {
           Contact Me
         </a>
         <a
-          href="../assets/resume/Melanie_Schiffner_Resume.pdf"
+          href="../public/Melanie_Schiffner_Resume.pdf"
           className={styles.resume}
           download
         >
