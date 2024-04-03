@@ -6,10 +6,8 @@
   background-color: var(--color-dark);
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
-  width: 100vw;
-  padding: 20px 10%;
-  gap: 100px;
+  justify-content: space-around;
+  padding: 20px 5%;
 }
 
 .text h2 {
@@ -47,11 +45,13 @@
   letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    justify-content: flex-start;
+    padding: 20px 5%;
   }
+
 
   .text {
     display: flex;
@@ -59,7 +59,9 @@
     align-items: center;
   }
 
-  .links {
-    align-items: center;
+  .link a {
+    font-size: 12px;
   }
+
+
 }

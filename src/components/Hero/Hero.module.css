@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
   }
@@ -89,4 +89,23 @@
   .content {
     align-items: center;
   }
+
+  .intro {
+    margin-bottom: 30px;
+    color: white;
+    padding-top: 50px;
+  }
+
+  .contactBtn, 
+.resume {
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.heroImg {
+  margin-top: 15px;
+  width: 50%;
+  z-index: 1;
+
+}
 }

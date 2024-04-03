@@ -25,8 +25,9 @@ const Timeline = () => {
     }, [history]);
 
     return (
-        <section className={styles.container} id="experience">
+        <section id="experience">
             <h2 className={styles.title}>Experience</h2>
+            <div className={styles.container}>
             {history.map((data, idx) => (
                 <div className={styles.item} key={idx}>
                     <div className={styles.content}>
@@ -44,7 +45,9 @@ const Timeline = () => {
                         <span className={styles.circle} />
                     </div>
                 </div>
+              
             ))}
+               </div>
         </section>
     );
 };
