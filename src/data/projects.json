@@ -10,7 +10,7 @@
   {
     "title": "Melucia Wanderlust",
     "imageSrc": "projects/melucia.png",
-    "description": "This project is a React Vite app with a mock API. It's a destination website where users can browse different locations (full CRUD)",
+    "description": "This project is a React Vite app with a mock API. It's a destination website where users can browse different locations (full CRUD).",
     "skills": ["React", "Mock API", "TailwindCSS", "Shadcn"],
     "demo": "https://melucia-wanderlust.netlify.app",
     "source": "https://github.com/melucia/melucia-travel-app"
@@ -18,7 +18,7 @@
   {
     "title": "Eddie On Tour",
     "imageSrc": "projects/eddie.png",
-    "description": "This browser-based game was build with web technologies like HTML and DOM manipulation. The user can go on an adventure with Eddie using arrow keys",
+    "description": "This browser-based game was build with web technologies like HTML and DOM manipulation. The user can go on an adventure with Eddie using arrow keys.",
     "skills": ["HTML", "CSS", "JavaScript", "DOM", "OOP"],
     "demo": "https://melschiffner.github.io/mini-project-Eddie-on-Tour",
     "source": "https://github.com/MelSchiffner/mini-project-Eddie-on-Tour"
@@ -26,7 +26,7 @@
   {
     "title": "M & M's Recipes",
     "imageSrc": "projects/recipes.png",
-    "description": "This is single-page application build with React. The user can create and manage their favorite recipes including editing, delelte and create recipes",
+    "description": "This is single-page application build with React. The user can create and manage their favorite recipes including editing, delelte and create recipes.",
     "skills": ["React", "SPA", "HTML", "CSS"],
     "demo": "https://mmsrecipes.netlify.app/",
     "source": "https://github.com/maridivi/mini-project2"

@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background: var(--color-secondary);
+  background: var(--color-card);
   border-radius: 15px;
   padding-left: 30px;
   z-index: 1;
@@ -49,13 +49,13 @@
   padding: 5px;
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
+    #005252 0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .aboutItem:hover {
@@ -68,8 +68,11 @@
 }
 
 .aboutItem p {
+  font-family: var(--font-roboto);
+  line-height: 1.5;
   font-size: 15px;
   padding: 5px 20px;
+ 
 }
 
 .aboutItem img {
